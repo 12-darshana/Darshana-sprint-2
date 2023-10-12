@@ -5,7 +5,7 @@ services:
     container_name: mysql_container870
     environment:
       MYSQL_DATABASE: darshanadb
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: darshana
     ports:
       - "3306:3306"
     networks:
